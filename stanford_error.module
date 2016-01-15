@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Stanford Error feature.
+ */
+
+include_once 'stanford_error.features.inc';

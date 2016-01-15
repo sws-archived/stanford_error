@@ -1,0 +1,15 @@
+name = Stanford Error
+description = A features module for error related things.
+core = 7.x
+package = Stanford
+version = 7.x-1.0
+project = stanford_error
+project status url = https://github.com/SU-SWS/stanford_error
+dependencies[] = context
+dependencies[] = context_error
+features[context][] = noblocks_403_404
+features[ctools][] = context:context:3
+features[features_api][] = api:2
+
+; stylesheets[all][] = css/stanford_module.css
+; scripts[] = js/stanford_module.js
