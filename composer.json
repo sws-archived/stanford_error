@@ -4,7 +4,14 @@
   "type": "drupal-custom-module",
   "license": "GPL-2.0+",
   "minimum-stability": "dev",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packages.drupal.org/7"
+    }
+  ],
   "require": {
-      "composer/installers": "^1.2"
+      "composer/installers": "^1.2",
+      "drupal/context_error": "~1.0"
   }
 }
